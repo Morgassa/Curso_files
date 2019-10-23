@@ -11,3 +11,4 @@ tv32 = trabalho_terça != trabalho_quinta
 mais_saude = not sorvete
 
 print("Tv50={} Tv32={} sorvete={} saúde={}".format(tv50, tv32, sorvete, mais_saude))
+
