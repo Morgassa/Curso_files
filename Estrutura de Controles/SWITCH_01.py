@@ -11,5 +11,4 @@ def semana(dia):
     return (dias.get(dia, '** inválido **'))
 
 
-
 print(semana('cachorro'))
