@@ -1,5 +1,12 @@
-import pandas as pd
-url="http://www.anp.gov.br/arquivos/dadosabertos/distribuidores/planilha-empresas-cadastradas-agente-inutilizador.csv"
-c=pd.read_csv(url)
+def fibto(n):
+    a, b =1,1
+    while True:
+        if a >= n: break
+        yield a
+        a, b = b, a + b
 
-print(c)
+def usefib():
+    yield from fibto(10)
+    yield from fibto(20)
+
+print(list(usefib()))
